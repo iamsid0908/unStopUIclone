@@ -1,0 +1,78 @@
+.recent{
+    /* border: 1px solid #163a66; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 100vh; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #163a66; 
+    border-right: 1px solid #163a66; 
+    border-bottom: 1px solid #163a66;
+
+}
+.three-btn{
+    display: flex;
+    /* border: 1px solid blue; */
+    /* margin: 2px; */
+
+    
+}
+.recent-btn{
+    border: 0.2px solid gray;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 5px; */
+    margin-right: 2px;
+    /* border-top-left-radius: 10px; */
+    color: white;
+    transition: background-color 1s ease;
+    
+}
+.recent-btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.p11{
+    border-top-left-radius: 10px;
+    background-color: #163a66;
+}
+#hi{
+    color: black;
+    background-color: white;
+    transition: transform 1s;
+}
+.p22{
+    /* border-top-right-radius: 10px; */
+    background-color: #163a66;
+}
+.p33{
+    border-top-right-radius: 10px;
+    background-color: #163a66;
+}
+.oppo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* border: 0.1px solid gray; */
+    height: 40px;
+    background-color: #e8f2ff;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+.oppo-bar{
+    border: 2px solid #163a66;
+    height: 100%;
+}
+.exclamation-mark{
+    margin-left: 10px;
+}
+.sentance{
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+}

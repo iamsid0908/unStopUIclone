@@ -1,0 +1,191 @@
+.fotter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: wheat; */
+    margin-top: 60px;
+}
+.leftside{
+    /* border: 1px solid red; */
+    flex: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #153460;
+    color: white;
+}
+.unlogo{
+    background-image: url("./unstop-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.rightside{
+    flex: 2;
+    /* border: 1px solid green; */
+    height: 767px;
+    background-color: #1c4980;
+    color: white;
+}
+.icons-ele{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic1{
+    margin: 20px;
+    /* border: 1px solid white; */
+}
+.ic1:hover{
+    border: 2px solid white;
+    border-radius: 50%;
+   
+}
+.fotter-input1{
+    /* border: 1px solid red; */
+    width: 350px;
+    border-radius: 15px;
+    background-color: #1c4980;
+}
+.fotter-input{
+    /* border: 1px solid green; */
+    flex: 4;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.send{
+    width: 100px;
+    /* height: 60px; */
+    flex: 1;
+    margin-left: 10px;
+}
+.two-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share{
+    border: 1px solid #1c4980;
+    background-color: #1c4980;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.publish{
+    border: 1px solid #1c4980;
+    background-color: #1c4980;
+    border-radius: 10px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.copyright{
+    font-size: 10px;
+}
+.child-left{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    width: 350px;
+}
+.sales{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.num{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.rightside-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+}
+.our-sol{
+    /* border: 1px solid red; */
+    text-align: left;
+
+}
+.participate{
+    /* border: 1px solid gray; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+/* ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+} */
+.properties{
+    width: 300px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+}
+.img1{
+    background-image: url("./d2c-payments-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    /* border: 1px solid green; */
+}
+.img2{
+    background-image: url("./payments-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+}
+.img3{
+    background-image: url("./gdpr-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+}
+.img4{
+    background-image: url("./6231c2c0b51ff_iso_9001.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+}
+.lastfotter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}

@@ -1,0 +1,43 @@
+.oppo-car{
+    border: 1px solid #739ac9;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #f6fafe;
+    border-radius: 15px;
+
+}
+.car1{
+    margin: 20px;
+}
+.car-img2{
+    /* border: 1px solid green; */
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.feature{
+    margin: 20px;
+    font-weight: 600;
+    color: #163a66;
+}
+.part{
+    margin-left: 20px;
+    color: #163a66;
+}
+.b{
+    /* border: 1px solid #739ac9; */
+    color: #163a66;
+    border-radius: 10px;
+    
+}
+.car-icon{
+    display: flex;
+    color: #163a66;
+}
+.w{
+    /* border: 1px solid #163a66; */
+    border-radius: 10px;
+    background-color: #98b5d1;
+    margin-right: 20px;
+    padding: 3px;
+}

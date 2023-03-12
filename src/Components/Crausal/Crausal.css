@@ -1,0 +1,24 @@
+.data-carousal11{
+    height: 50vh;
+}
+.car{
+    /* border: 1px solid red; */
+    height: 300px;
+    margin-left: 8%;
+    margin-right: 8%;
+  
+    margin-top: 10vh;
+}
+.a{
+    margin: 10px;
+}
+.car-img{
+    /* border: 1px solid red; */
+    border: none;
+    outline: none;
+    width: 550px;
+    height: 215px;
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+}

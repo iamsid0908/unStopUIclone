@@ -1,0 +1,130 @@
+.nav{
+    border: 0.2px solid #c1cedd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex: 1;
+    height: 10vh;
+}
+.unstop-logo{
+    background-image: url("./unstop-logo.svg");
+    width: 79px;
+    height: 31px;
+    background-size: cover;
+    margin-right: 15px;
+    
+}
+.border-bar{
+    border: 1px solid #163a66;
+    height: 40px;
+    color: #163a66;
+    margin-right: 10px;
+
+}
+.search-bar{
+    border: 1px solid #163a66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+   
+    margin-bottom: 0px;
+    color: #163a66;
+    font-size: 14px;
+}
+.p2{
+   
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #163a66;
+}
+.right{
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.search-bar{
+    margin-left: 5%;
+    height: 30px;
+    border-radius: 10px;
+    width: 270px;
+    padding-left: 5px;
+}
+input{
+    width: 230px;
+    outline: none;
+    border: none;
+
+}
+.learn-con{
+    display: flex;
+   align-items: center;
+    justify-content: left;
+    /* border: 1px solid red; */
+    width: 24px;
+    height: 24px;
+    overflow:hidden;
+    margin-left: 10px;
+    position: fixed;
+}
+.learn-icon{
+    /* transform: translate3d(22px,0px,0px); */
+    display: flex;
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+}
+.learn-icon:hover{
+    transform: translate3d(-24px,0px,0px);
+    
+}
+.nav-items{
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 6vh;
+    width: 80px;
+    margin-right: 6px;
+}
+.nav-itemsName{
+    font-size: 12px;
+    color: #163a66;
+    margin-left: 20px;
+    /* border: 1px solid green; */
+    position: relative;
+    top: 25px;
+    left: -05px;
+}
+.host-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #163a66;
+    color: white;
+}
